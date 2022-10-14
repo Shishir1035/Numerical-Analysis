@@ -98,7 +98,6 @@ def newton_raphson_method( a, E, deriE, acerror):
 	
 def secant_method(x0, x1, E, acerror):
     global roots
-
     print('\nSecant Method :')
     val = f(E,x0)
     table = prettytable.PrettyTable(['Xi', 'error(%)', 'f(Xi)'])
