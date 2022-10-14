@@ -87,8 +87,8 @@ def callnaivegauss(mat):
 
 def callpartialgauss(mat):
     newmat = numpy.copy(mat)
-    naive_gauss(newmat)
-    show(" Naive Gaussian Elimination")
+    gauss_with_partial_pivoting(newmat)
+    show(" Gaussian Elimination with partial pivoting ")
 
 # ---------------------- code starts from here -------------------------
 n = int(input('Number of equations: '))
