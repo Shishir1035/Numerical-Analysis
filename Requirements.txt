@@ -1,0 +1,7 @@
+Needed Python Module : numpy , sympy, prettytable
+
+pip install numpy
+pip install sympy
+pip install prettytable
+
+
