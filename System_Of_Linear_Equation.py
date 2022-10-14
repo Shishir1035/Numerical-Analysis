@@ -124,3 +124,8 @@ for row in range(n):
 lowertri, uppertri = ludecomp(newmat)
 print('\n---------lower triangle matrix---------\n',lowertri)
 print('\n---------upper triangle matrix---------\n',uppertri)
+
+
+# couldn't implement in time
+# invmat = inversemat(mat)
+# print(invmat)
