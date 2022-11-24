@@ -64,7 +64,7 @@ def bracketing_method(method,a,b,E,acerror):
             break
     
     print(table)
-    roots.add_row([method, "%.9f"%res, steps])
+    roots.add_row([method, "%.8f"%res, steps])
 
 def newton_raphson_method( a, E, deriE, acerror):
     global roots
@@ -94,7 +94,7 @@ def newton_raphson_method( a, E, deriE, acerror):
             break
             
     print(table)
-    roots.add_row(["Newton Raphson", "%.9f"%newa, steps])
+    roots.add_row(["Newton Raphson", "%.8f"%newa, steps])
 	
 def secant_method(x0, x1, E, acerror):
     global roots
@@ -126,7 +126,7 @@ def secant_method(x0, x1, E, acerror):
             break
             
     print(table)
-    roots.add_row(["Secant", "%.9f"%x2, steps])
+    roots.add_row(["Secant", "%.8f"%x2, steps])
 
 # ------------------- code starts from here --------------------------
 func = input("Enter the function , f(x) = ")
