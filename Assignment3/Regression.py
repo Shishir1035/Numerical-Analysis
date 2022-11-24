@@ -15,12 +15,9 @@ def Regression(x, y):
     
     return a0, a1
 # ----------------------------------------- code starts from here ----------------------------
-# size = int(input("Number of x,y pair as input : "))
-# xlist = [float(i) for i in input("Enter the "+str(size)+" values of x : ").split()]
-# ylist = [float(i) for i in input("Enter the "+str(size)+" values of y : ").split()]
-
-xlist = [0.698132, 0.959931, 1.134464, 1.570796, 1.919862]
-ylist = [0.188224, 0.209138, 0.230052, 0.250965, 0.313707]
+size = int(input("Number of x,y pair as input : "))
+xlist = [float(i) for i in input("Enter the "+str(size)+" values of x : ").split()]
+ylist = [float(i) for i in input("Enter the "+str(size)+" values of y : ").split()]
 
 a0,a1 = Regression(xlist, ylist)
 t = []
