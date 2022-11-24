@@ -1,0 +1,3 @@
+Needed Python Module : prettytable
+
+pip install prettytable
